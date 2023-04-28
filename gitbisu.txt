@@ -1,0 +1,31 @@
+## GIT COMMANDS ##
+
+1 - RESET: Resetar projeto ao original do repositório.
+git reset --hard origin/main
+
+2- CLONAR: Clonar projeto
+git clone <remote address>
+
+3- TRAZER arquivos do projeto git pull
+
+4- LISTAR alterações: git status
+
+5- LISTAR commits
+git log
+
+6- ADICIONAR novos arquivos ao projeto
+git add .
+
+7- REGISTRAR commit
+git commit -m “<descrição da feature/alterações>”
+
+8- LISTAR branchs (a branch atual estará em destaque na lista)
+git branch
+
+9-
+
+10- CRIAR branch
+git branch <nome da nova branch>
+
+11- MUDAR de branch:
+git checkout <nome da branch destino>
