@@ -30,8 +30,10 @@
 10- MUDAR de branch:
     git checkout <nome da branch destino>
 
-11-
+11-Essa linha eu mudei na branch auxiliar
 
 12- Esta linha alterei na branch "main"
 
 13- NOVA linha alterada na branch "main"
+
+14- NOVA linha eu mudei na branch auxiliar
