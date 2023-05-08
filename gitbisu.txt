@@ -31,3 +31,9 @@
     git checkout <nome da branch destino>
 
 11-Essa linha eu mudei na branch auxiliar
+
+
+
+
+
+1?-NOVA linha eu mudei na branch auxiliar
