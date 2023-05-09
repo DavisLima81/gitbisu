@@ -28,6 +28,9 @@
    git branch <nome da nova branch>
 
 10- MUDAR de branch:
-    git checkout <nome da branch destino>
+    git checkout <nome da branch destino
 
+11-SUBIR no repositório remoto (site do GitHub) uma branch criada localmente
+    git push --set-upstream origin <nome_da_branch>
 
+### SEMPRE ANTES DE TROCAR DE BRANCHes, COMMITAR E SUBIR ALTERAÇÕES ###
