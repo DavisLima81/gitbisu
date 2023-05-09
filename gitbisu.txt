@@ -34,3 +34,22 @@
     git push --set-upstream origin <nome_da_branch>
 
 ### SEMPRE ANTES DE TROCAR DE BRANCHes, COMMITAR E SUBIR ALTERAÇÕES ###
+
+### NOSSO PROJETO DE TESTES PARA ESTUDO DO GITHUB ###
+-> Criar um novo repositório no GitHub
+-> Clonar o repositório para o computador local
+
+
+### HIPÓTESE: atualizar localmente um projeto, trazendo todas as alterações feitas no repositório remoto ###
+LEMBRANDO QUE:
+1- localmente estou trabalhando numa branch auxiliar (davis)
+2- As alterações remotas deverão prevalecer
+3- As alterações locais deverão ser descartadas
+===========================================================================================================
+
+1- selecionar branch 'main': git checkout main
+2- atualizar localmente a branch main: git pull
+3- selecionar a branch auxiliar: git checkout davis
+4- merger a branch main na branch auxiliar: git merge main
+5- definir a estratégia de merger, ignorado as alterações locais: git merge main -X theirs
+
